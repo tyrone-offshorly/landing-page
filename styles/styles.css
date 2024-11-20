@@ -9,6 +9,41 @@ body {
 header, .hero-section, footer{
   background-color: #1F2937;
 }
+.card-container {
+  display: flex;
+  justify-content: center;
+  gap: 48px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.card-image-container {
+  width: 170px;
+  height: 170px;
+  border-radius: 16px;
+  border:#3882F6 solid;
+}
+.card {
+  flex-basis: 180px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.information-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+.information-section h2 {
+  color: #1F2937;
+  font-size: 36px;
+  font-weight: 900;
+  padding: 0;
+  margin: 0;
+}
 .hero-section{
   display: flex;
   justify-content: center;
