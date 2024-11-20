@@ -16,7 +16,32 @@ header, .hero-section, footer{
   padding-top: 72px;
   padding-bottom: 72px;
 }
-
+.action-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 48px;
+}
+.action-container {
+  display: flex;
+  color: #E5E7EB;
+  padding: 48px;
+  flex-basis: 720px;
+  background-color: #3882F6;
+  justify-content: space-around;
+  border-radius: 16px;
+  align-items: center;
+}
+.action-container button {
+  background-color: #3882F6;
+  color: #E5E7EB;
+  border: 1px solid #E5E7EB; 
+  border-radius: 8px;
+  flex-basis: 100px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  font-weight: bold;
+}
 .quote-container {
   display: flex;
   flex-direction: column;
@@ -113,13 +138,15 @@ nav, .hero-section p {
   margin: 0;
   color: #E5E7EB;
 }
+button {
+  outline: none;
+  border: none;
+}
 .hero-section button {
   font-size: 18px;
   background-color: #3882F6;
   color: #E5E7EB;
   padding: 8px 16px;
-  outline: none;
-  border: none;
   border-radius: 8px;
   align-self: first baseline;
   font-weight: bold;
@@ -139,4 +166,12 @@ a {
   font-size: 24px;
   font-weight: bold;
   color: #F9FAF8;
+}
+
+footer {
+  display: flex;
+  color: #E5E7EB;
+  padding: 24px 0;
+  align-items: center;
+  justify-content: center;
 }
